@@ -11,6 +11,7 @@
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/0c4692b417.js" crossorigin="anonymous"></script>
     <script>
         tailwind.config = {
             theme: {
@@ -35,7 +36,37 @@
 </head>
 
 <body>
-    <header></header>
+    <header class="max-w-screen-xl mx-auto my-16">
+        <div class="flex gap-12 flex-col md:flex-row items-center">
+            <div class="space-y-8 flex-1 text-center md:text-left">
+                <h1 class="text-4xl md:text-7xl font-extrabold">
+                    It's good <br>
+                    tea time at The <br>
+                    Tea House
+                </h1>
+                <p class="text-base text-" #777="">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="btn bg-gradient-to-r from-bg-start to-bg-end uppercase text-white">
+                    explore more
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+                </button>
+
+            </div>
+            <div class="flex-1 relative">
+                <img src="./images/banner.png" alt="">
+                <div class="bg-white flex items-center gap-2 px-7 py-5 rounded-lg absolute left-24 bottom-6 shadow-md">
+                    <div class="text-amber-400">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="">
+                        <h2 class="text-3xl font-extrabold">5.00</h2>
+                        <p>Trust Pilot Ratings</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </header>
     <main></main>
     <footer></footer>
 
